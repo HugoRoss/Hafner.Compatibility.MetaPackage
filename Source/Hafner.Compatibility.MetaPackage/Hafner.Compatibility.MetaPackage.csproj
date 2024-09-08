@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net9.0;net8.0;net7.0;net6.0;net5.0;netcoreapp3.1;netcoreapp3.0;netcoreapp2.2;netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;netcoreapp1.0;netstandard2.1;netstandard2.0;netstandard1.6;netstandard1.5;netstandard1.4;netstandard1.3;netstandard1.2;netstandard1.1;netstandard1.0;net481;net48;net472;net471;net47;net462;net461;net46;net452;net451;net45;net403;net40;net35;net30;net20</TargetFrameworks>
+    <FrameworksTemplate>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|net8.0|net9.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksTemplate>
+    <FrameworksLackingGuidAttribute>|netstandard1.0|</FrameworksLackingGuidAttribute>
+    <FrameworksLackingExtensionAttribute>|net20|net30|</FrameworksLackingExtensionAttribute>
+    <FrameworksLackingNullableAttributes1>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|</FrameworksLackingNullableAttributes1>
+    <FrameworksLackingNullableAttributes2>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingNullableAttributes2>
+    <FrameworksLackingNullableAttributes3>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingNullableAttributes3>
+    <FrameworksLackingConstantExpectedAttributes>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingConstantExpectedAttributes>
+    <Configurations>Debug;Release;NuGet</Configurations>
+    <ConfigurationsThatPublish>|NuGet|</ConfigurationsThatPublish>
+    <OutputType>Library</OutputType>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <LangVersion>Latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <NoWarn>IDE0079;NETSDK1138;CA1720;CS1701;NU1901;NU1902;NU1903;NU1904</NoWarn>
+    <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <CheckNotRecommendedTargetFramework>false</CheckNotRecommendedTargetFramework>
+    <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Christoph Hafner</Authors>
+    <Company>Hafner</Company>
+    <Product>Hafner.Compatibility</Product>
+    <!-- Set <major>.<minor>.<patch> for the package version according to the following logic: -->
+    <!--    1.2.3.0  =>  1.2.4.0  if no interface changes have been performed (patch, bug-fix) -->
+    <!--    1.2.3.0  =>  1.3.0.0  if new interfaces have been added (feature release) -->
+    <!--    1.2.3.0  =>  2.0.0.0  if existing interfaces have been modified (breaking changes) -->
+    <Version>1.3.0.0</Version>
+    <!-- Set to <major>.<minor>.0.0 of the <Version> element -->
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <!-- Set to <major>.<minor>.<patch>.0 of the <Version> element -->
+    <FileVersion>1.3.0.0</FileVersion>
+    <!-- Set to <major>.<minor>.<patch>.0 of the <Version> element -->
+    <AssemblyInformationalVersion>1.3.0.0</AssemblyInformationalVersion>
+    <Copyright>Copyright (C) 2023 - 2024 by Christoph Hafner</Copyright>
+    <Description>Meta-package that includes Hafner.Compatibility.* packages (see https://github.com/HugoRoss/Hafner.Compatibility.Packages) as required.
+    
+      See package read-me for an overview with the exact types that are currently supported and for which framework they are imported.</Description>
+    <PackageIcon>resources\PackageIcon.png</PackageIcon>
+    <PackageReadmeFile>resources\PackageReadMe.md</PackageReadmeFile>
+    <PackageTags>GuidAttribute System.Runtime.InteropServices.GuidAttribute System.Runtime.CompilerServices.ExtensionAttribute ExtensionAttribute AllowNull, DisallowNull, DoesNotReturn, DoesNotReturnIf, MaybeNull, MaybeNullWhen, NotNull, NotNullIfNotNull, NotNullWhen, MemberNotNull, MemberNotNullWhen, Nullable, NullableContext, NullablePublicOnly, ConstantExpected, System.Diagnostics.CodeAnalysis.AllowNullAttribute, System.Diagnostics.CodeAnalysis.DisallowNullAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute, System.Diagnostics.CodeAnalysis.MaybeNullAttribute, System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute, System.Diagnostics.CodeAnalysis.NotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullWhenAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute, System.Diagnostics.CodeAnalysis.NullableAttribute, System.Diagnostics.CodeAnalysis.NullableContextAttribute, System.Diagnostics.CodeAnalysis.NullablePublicOnlyAttribute, System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute</PackageTags>
+    <PackageReleaseNotes>Initial release (migrated from Hafner.Compatibility.Attributes).</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/HugoRoss/Hafner.Compatibility.MetaPackage</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HugoRoss/Hafner.Compatibility.MetaPackage.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <PropertyGroup Condition="$(ConfigurationsThatPublish.Contains('|$(Configuration)|'))">
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup Condition="$(FrameworksLackingGuidAttribute.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.GuidAttribute" Version="2.0.4" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingExtensionAttribute.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.ExtensionAttribute" Version="3.0.2" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingNullableAttributes1.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G1" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingNullableAttributes2.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G2" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingNullableAttributes3.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G3" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingConstantExpectedAttributes.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.ConstantExpectedAttribute" Version="1.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PackageReadMe.md" Pack="true" PackagePath="\resources" Visible="true" />
+    <None Include="..\..\BuildTools\Resources\PackageIcon.png" Pack="true" PackagePath="\resources" Visible="false" />
+  </ItemGroup>
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="@ECHO OFF&#xD;&#xA;CALL &quot;$(ProjectDir)BuildEvents\PreBuild.bat&quot; &quot;$(ConfigurationName)&quot; &quot;$(TargetFramework)&quot;&#xD;&#xA;" />
+  </Target>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="@ECHO OFF&#xD;&#xA;CALL &quot;$(ProjectDir)BuildEvents\PostBuild.bat&quot; &quot;$(ConfigurationName)&quot; &quot;$(TargetFramework)&quot;&#xD;&#xA;" />
+  </Target>
+  <Target Name="PostPackaging" AfterTargets="Pack" Condition="'$(Configuration)' == 'NuGet'">
+    <Exec Command="@ECHO OFF&#xD;&#xA;CALL &quot;$(ProjectDir)BuildEvents\PostPackage.bat&quot; &quot;NuGet&quot;&#xD;&#xA;" />
+  </Target>
+</Project>
