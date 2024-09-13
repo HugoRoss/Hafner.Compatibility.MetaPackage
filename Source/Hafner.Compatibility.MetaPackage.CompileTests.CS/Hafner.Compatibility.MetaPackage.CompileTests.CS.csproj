@@ -20,8 +20,4 @@
     <ProjectReference Include="..\Hafner.Compatibility.MetaPackage\Hafner.Compatibility.MetaPackage.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G3\" />
-  </ItemGroup>
-
 </Project>
