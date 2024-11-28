@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net8.0;net7.0;net6.0;net5.0;netcoreapp3.1;netcoreapp3.0;netcoreapp2.2;netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;netcoreapp1.0;netstandard2.1;netstandard2.0;netstandard1.6;netstandard1.5;netstandard1.4;netstandard1.3;netstandard1.2;netstandard1.1;netstandard1.0;net481;net48;net472;net471;net47;net462;net461;net46;net452;net451;net45;net403;net40;net35;net30;net20</TargetFrameworks>
     <Configurations>Debug;Release</Configurations>
-    <RootNamespace>Hafner.Compatibility.Compile.Tests</RootNamespace>
+    <RootNamespace>Hafner.Compatibility.CompileTest.VB</RootNamespace>
     <OutputType>Library</OutputType>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <NeutralLanguage>en-US</NeutralLanguage>
@@ -11,6 +11,7 @@
     <Nullable>enable</Nullable>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
     <NoWarn>IDE0079;NETSDK1138;CA1720;CS1701;CS1591;NU1901;NU1902;NU1903;NU1904</NoWarn>
     <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>

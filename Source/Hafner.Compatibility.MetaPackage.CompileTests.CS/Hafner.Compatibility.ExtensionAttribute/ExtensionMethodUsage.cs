@@ -1,4 +1,4 @@
-﻿namespace Hafner.Compatibility.ExtensionAttribute.CompileTest.CS;
+﻿namespace Hafner.Compatibility.CompileTest.CS.ExtensionAttribute;
 
 using System.Collections.Generic;
 

@@ -1,4 +1,4 @@
-﻿namespace Hafner.Compatibility.CodeAnalysisAttributes.CompileTests;
+﻿namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 
 using System;
 using System.Diagnostics.CodeAnalysis;

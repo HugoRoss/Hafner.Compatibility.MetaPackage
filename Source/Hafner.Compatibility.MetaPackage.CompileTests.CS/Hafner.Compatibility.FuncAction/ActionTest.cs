@@ -1,4 +1,4 @@
-﻿namespace Hafner.Compatibility.FuncAction.Tests;
+﻿namespace Hafner.Compatibility.CompileTest.CS.FuncAction;
 
 using System;
 

@@ -10,6 +10,8 @@
     <FrameworksLackingConstantExpectedAttributes>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingConstantExpectedAttributes>
     <FrameworksLackingFuncActionG2>|net20|net30|</FrameworksLackingFuncActionG2>
     <FrameworksLackingFuncActionG3>|net20|net30|net35|</FrameworksLackingFuncActionG3>
+    <FrameworksLackingDynamicallyAccessedMembersAttribute>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingDynamicallyAccessedMembersAttribute>
+    <FrameworksLackingLoaderOptimizationAttribute>|netcoreapp1.0|netcoreapp1.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|</FrameworksLackingLoaderOptimizationAttribute>
     <Configurations>Debug;Release;NuGet</Configurations>
     <ConfigurationsThatPublish>|NuGet|</ConfigurationsThatPublish>
     <OutputType>Library</OutputType>
@@ -26,26 +28,26 @@
     <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Authors>Christoph Hafner</Authors>
+    <Authors>Christoph&#160;Hafner</Authors>
     <Company>Hafner</Company>
     <Product>Hafner.Compatibility</Product>
-    <Version>1.4.0.0</Version>
-    <AssemblyVersion>1.4.0.0</AssemblyVersion>
-    <FileVersion>1.4.0.0</FileVersion>
-    <AssemblyInformationalVersion>1.4.0.0</AssemblyInformationalVersion>
+    <Version>1.6.0.0</Version>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
+    <FileVersion>1.6.0.0</FileVersion>
+    <AssemblyInformationalVersion>1.6.0.0</AssemblyInformationalVersion>
     <Copyright>Copyright (C) 2023 - 2024 by Christoph Hafner</Copyright>
     <Description>Meta-package that includes Hafner.Compatibility.* packages (see https://github.com/HugoRoss/Hafner.Compatibility.Packages) as required.
-    
-      See 'PackageReadMe.md' for an overview with the exact types that are currently supported and for which framework they are imported.</Description>
+
+See 'PackageReadMe.md' for an overview with the exact types that are currently supported and for which framework they are imported.
+    </Description>
     <PackageIcon>resources\PackageIcon.png</PackageIcon>
     <PackageReadmeFile>resources\PackageReadMe.md</PackageReadmeFile>
-    <PackageTags>GuidAttribute System.Runtime.InteropServices.GuidAttribute System.Runtime.CompilerServices.ExtensionAttribute ExtensionAttribute AllowNull, DisallowNull, DoesNotReturn, DoesNotReturnIf, MaybeNull, MaybeNullWhen, NotNull, NotNullIfNotNull, NotNullWhen, MemberNotNull, MemberNotNullWhen, Nullable, NullableContext, NullablePublicOnly, ConstantExpected, System.Diagnostics.CodeAnalysis.AllowNullAttribute, System.Diagnostics.CodeAnalysis.DisallowNullAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute, System.Diagnostics.CodeAnalysis.MaybeNullAttribute, System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute, System.Diagnostics.CodeAnalysis.NotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullWhenAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute, System.Diagnostics.CodeAnalysis.NullableAttribute, System.Diagnostics.CodeAnalysis.NullableContextAttribute, System.Diagnostics.CodeAnalysis.NullablePublicOnlyAttribute, System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute, System.Func, System.Action</PackageTags>
-    <PackageReleaseNotes>System.Func&lt;T&gt; and System.Action&lt;T&gt; (various overloads) integrated.</PackageReleaseNotes>
+    <PackageTags>GuidAttribute System.Runtime.InteropServices.GuidAttribute System.Runtime.CompilerServices.ExtensionAttribute ExtensionAttribute AllowNull, DisallowNull, DoesNotReturn, DoesNotReturnIf, MaybeNull, MaybeNullWhen, NotNull, NotNullIfNotNull, NotNullWhen, MemberNotNull, MemberNotNullWhen, Nullable, NullableContext, NullablePublicOnly, ConstantExpected, System.Diagnostics.CodeAnalysis.AllowNullAttribute, System.Diagnostics.CodeAnalysis.DisallowNullAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute, System.Diagnostics.CodeAnalysis.MaybeNullAttribute, System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute, System.Diagnostics.CodeAnalysis.NotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullWhenAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute, System.Diagnostics.CodeAnalysis.NullableAttribute, System.Diagnostics.CodeAnalysis.NullableContextAttribute, System.Diagnostics.CodeAnalysis.NullablePublicOnlyAttribute, System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute, System.Func, System.Action, RequiresUnreferencedCodeAttribute, System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute, DynamicDependencyAttribute, System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute, DynamicallyAccessedMembersAttribute, System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute, DynamicallyAccessedMemberTypes, System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes, LoaderOptimization, LoaderOptimizationAttribute, System.LoaderOptimization, System.LoaderOptimizationAttribute, Hafner.Compatibility.LoaderOptimizationAttribute</PackageTags>
+    <PackageReleaseNotes>Package "Hafner.Compatibility.LoaderOptimizationAttribute" integrated.</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/HugoRoss/Hafner.Compatibility.MetaPackage</PackageProjectUrl>
     <RepositoryUrl>https://github.com/HugoRoss/Hafner.Compatibility.MetaPackage.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-  
-</PropertyGroup>
+  </PropertyGroup>
   <PropertyGroup Condition="$(ConfigurationsThatPublish.Contains('|$(Configuration)|'))">
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <DebugType>pdbonly</DebugType>
@@ -53,33 +55,40 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup Condition="$(FrameworksLackingGuidAttribute.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.GuidAttribute" Version="2.0.4" />
+    <PackageReference Include="Hafner.Compatibility.GuidAttribute" Version="2.0.5" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingExtensionAttribute.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.ExtensionAttribute" Version="3.0.2" />
+    <PackageReference Include="Hafner.Compatibility.ExtensionAttribute" Version="3.0.3" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingNullableAttributes1.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G1" Version="1.0.2" />
+    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G1" Version="1.0.3" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingNullableAttributes2.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G2" Version="1.0.2" />
+    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G2" Version="1.0.3" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingNullableAttributes3.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G3" Version="1.0.2" />
+    <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G3" Version="1.0.3" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingConstantExpectedAttributes.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.ConstantExpectedAttribute" Version="1.0.2" />
+    <PackageReference Include="Hafner.Compatibility.ConstantExpectedAttribute" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingFuncActionG2.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.FuncAction.G2" Version="1.0.1" />
+    <PackageReference Include="Hafner.Compatibility.FuncAction.G2" Version="1.0.2" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingFuncActionG3.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.FuncAction.G3" Version="1.0.0" />
+    <PackageReference Include="Hafner.Compatibility.FuncAction.G3" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingDynamicallyAccessedMembersAttribute.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.DynamicallyAccessedMembersAttribute" Version="1.1.2" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingLoaderOptimizationAttribute.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.LoaderOptimizationAttribute" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PackageReadMe.md" Pack="true" PackagePath="\resources" Visible="true" />
     <None Include="..\..\BuildTools\Resources\PackageIcon.png" Pack="true" PackagePath="\resources" Visible="false" />
   </ItemGroup>
+  <ItemGroup />
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="@ECHO OFF&#xD;&#xA;CALL &quot;$(ProjectDir)BuildEvents\PreBuild.bat&quot; &quot;$(ConfigurationName)&quot; &quot;$(TargetFramework)&quot;&#xD;&#xA;" />
   </Target>

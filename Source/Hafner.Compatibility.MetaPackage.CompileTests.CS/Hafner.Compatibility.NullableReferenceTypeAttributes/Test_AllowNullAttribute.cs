@@ -1,6 +1,6 @@
 ﻿#pragma warning disable CA2227 // Collection properties should be read only
 
-namespace Hafner.Compatibility.CodeAnalysisAttributes.CompileTests;
+namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 
 using System.Collections.Generic;
 using System.Diagnostics;

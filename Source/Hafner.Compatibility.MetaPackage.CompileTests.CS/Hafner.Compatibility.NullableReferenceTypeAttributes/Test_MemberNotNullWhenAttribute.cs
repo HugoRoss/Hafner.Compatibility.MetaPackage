@@ -1,6 +1,6 @@
 ﻿#pragma warning disable CA1034
 
-namespace Hafner.Compatibility.CodeAnalysisAttributes.CompileTests;
+namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 
 using System.Diagnostics.CodeAnalysis;
 
@@ -11,11 +11,7 @@ public static class Test_MemberNotNullWhenAttribute {
         public string? RecordId { get; private set; }
 
         [MemberNotNullWhen(false, nameof(RecordId))]
-        public bool IsNewRecord {
-            get {
-                return (RecordId is null);
-            }
-        }
+        public bool IsNewRecord => (RecordId is null);
 
         /// <summary>
         /// This method would raise a "CS8603: Possible null reference return." if <see cref="IsNewRecord"/> would not be decorated with the
@@ -34,11 +30,7 @@ public static class Test_MemberNotNullWhenAttribute {
         public string? RecordId { get; private set; }
 
         [MemberNotNullWhen(true, nameof(RecordId))]
-        public bool IsExistingRecord {
-            get {
-                return (RecordId is not null);
-            }
-        }
+        public bool IsExistingRecord => (RecordId is not null);
 
         /// <summary>
         /// This method would raise a "CS8603: Possible null reference return." if <see cref="IsExistingRecord"/> would not be decorated with the

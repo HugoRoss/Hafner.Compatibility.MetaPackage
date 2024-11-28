@@ -1,6 +1,6 @@
 ﻿#pragma warning disable CA1510
 
-namespace Hafner.Compatibility.CodeAnalysisAttributes.CompileTests;
+namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 
 using System.Diagnostics.CodeAnalysis;
 

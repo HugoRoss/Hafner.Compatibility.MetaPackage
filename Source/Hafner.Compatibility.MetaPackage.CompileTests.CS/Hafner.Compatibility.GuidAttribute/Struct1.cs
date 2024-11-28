@@ -1,6 +1,6 @@
 ﻿//GuidAttribute on struct level
 
-namespace Hafner.Compatibility.GuidAttribute.Tests;
+namespace Hafner.Compatibility.CompileTest.CS.GuidAttribute;
 
 using System.Runtime.InteropServices;
 

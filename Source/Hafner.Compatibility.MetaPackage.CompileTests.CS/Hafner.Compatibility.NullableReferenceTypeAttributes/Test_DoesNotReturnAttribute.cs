@@ -1,6 +1,6 @@
 ﻿#pragma warning disable CA1062 // Validate arguments of public methods
 
-namespace Hafner.Compatibility.CodeAnalysisAttributes.CompileTests;
+namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 
 using System;
 using System.Diagnostics.CodeAnalysis;
