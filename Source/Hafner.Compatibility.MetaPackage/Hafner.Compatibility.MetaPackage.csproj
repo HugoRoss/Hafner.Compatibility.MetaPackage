@@ -3,6 +3,7 @@
     <TargetFrameworks>net9.0;net8.0;net7.0;net6.0;net5.0;netcoreapp3.1;netcoreapp3.0;netcoreapp2.2;netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;netcoreapp1.0;netstandard2.1;netstandard2.0;netstandard1.6;netstandard1.5;netstandard1.4;netstandard1.3;netstandard1.2;netstandard1.1;netstandard1.0;net481;net48;net472;net471;net47;net462;net461;net46;net452;net451;net45;net403;net40;net35;net30;net20</TargetFrameworks>
     <FrameworksTemplate>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|net8.0|net9.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksTemplate>
     <FrameworksLackingGuidAttribute>|netstandard1.0|</FrameworksLackingGuidAttribute>
+    <FrameworksLackingExcludeFromCodeCoverage>|net20|net30|net35|netcoreapp1.0|netcoreapp1.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|</FrameworksLackingExcludeFromCodeCoverage>
     <FrameworksLackingExtensionAttribute>|net20|net30|</FrameworksLackingExtensionAttribute>
     <FrameworksLackingNullableAttributes1>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|</FrameworksLackingNullableAttributes1>
     <FrameworksLackingNullableAttributes2>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingNullableAttributes2>
@@ -83,6 +84,9 @@ See 'PackageReadMe.md' for an overview with the exact types that are currently s
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingLoaderOptimizationAttribute.Contains('|$(TargetFramework)|'))">
     <PackageReference Include="Hafner.Compatibility.LoaderOptimizationAttribute" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingExcludeFromCodeCoverage.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.ExcludeFromCodeCoverageAttribute" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PackageReadMe.md" Pack="true" PackagePath="\resources" Visible="true" />
