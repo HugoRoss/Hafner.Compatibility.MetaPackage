@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="NuGet" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="Hafner.Compatibility.MetaPackage.CompileTests.CS/Hafner.Compatibility.MetaPackage.CompileTests.CS.csproj">
+    <BuildType Solution="NuGet|*" Project="Debug" />
+  </Project>
+  <Project Path="Hafner.Compatibility.MetaPackage.CompileTests.VB/Hafner.Compatibility.MetaPackage.CompileTests.VB.vbproj">
+    <BuildType Solution="NuGet|*" Project="Debug" />
+  </Project>
+  <Project Path="Hafner.Compatibility.MetaPackage/Hafner.Compatibility.MetaPackage.csproj" />
+</Solution>
