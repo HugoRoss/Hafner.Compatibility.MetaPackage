@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 
+[SuppressMessage("Naming", "CA1711:Identifiers should not have incorrect suffix", Justification = "It's a test for an attribute!")]
 public class Test_AllowNullAttribute {
 
     [DebuggerBrowsable(DebuggerBrowsableState.Never)]
@@ -23,9 +24,7 @@ public class Test_AllowNullAttribute {
             }
             return result;
         }
-        set {
-            neverNull = value;
-        }
+        set => neverNull = value;
     }
 
 }

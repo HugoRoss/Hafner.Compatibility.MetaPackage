@@ -4,6 +4,7 @@ namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 
 using System.Diagnostics.CodeAnalysis;
 
+[SuppressMessage("Naming", "CA1711:Identifiers should not have incorrect suffix", Justification = "It's a test for an attribute!")]
 public static class Test_MemberNotNullWhenAttribute {
 
     public sealed class Record1 {

@@ -7,7 +7,8 @@ using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 
-public class Test_DisllowNullAttribute {
+[SuppressMessage("Naming", "CA1711:Identifiers should not have incorrect suffix", Justification = "It's a test for an attribute!")]
+public class Test_DisallowNullAttribute {
 
     [DebuggerBrowsable(DebuggerBrowsableState.Never)]
     private string? initiallyIsNull;
@@ -17,9 +18,7 @@ public class Test_DisllowNullAttribute {
     /// </summary>
     [DisallowNull]
     public string? InitiallyIsNull {
-        get {
-            return initiallyIsNull;
-        }
+        get => initiallyIsNull;
         set {
             if (value is null) throw new ArgumentNullException(nameof(InitiallyIsNull), $"The property '{nameof(InitiallyIsNull)}' cannot be set to null!");
             initiallyIsNull = value;

@@ -10,7 +10,6 @@ public static class TestClass {
         throw new NotImplementedException();
     }
 
-
     public static void Method1() {
         Method2<DateTime>();
     }

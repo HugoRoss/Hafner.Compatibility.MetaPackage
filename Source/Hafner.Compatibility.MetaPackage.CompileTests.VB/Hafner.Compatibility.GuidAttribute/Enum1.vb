@@ -2,10 +2,14 @@
 
 Imports System.Runtime.InteropServices
 
-<Guid("FD7B0333-921B-43B8-9F6F-F78829E53C10")>
-Public Enum Enum1
+Namespace GuidAttributeTests
 
-    Foo
-    Bar
+    <Guid("FD7B0333-921B-43B8-9F6F-F78829E53C10")>
+    Public Enum Enum1
 
-End Enum
+        Foo
+        Bar
+
+    End Enum
+
+End Namespace

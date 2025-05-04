@@ -6,6 +6,7 @@ namespace Hafner.Compatibility.CompileTest.CS.NullableReferenceTypeAttributes;
 using System;
 using System.Diagnostics.CodeAnalysis;
 
+[SuppressMessage("Naming", "CA1711:Identifiers should not have incorrect suffix", Justification = "It's a test for an attribute!")]
 public class Test_DoesNotReturnIfAttribute {
 
     /// <summary>
@@ -17,6 +18,7 @@ public class Test_DoesNotReturnIfAttribute {
         ThrowExceptionIf(argument is null, nameof(argument));
         argument = argument.Trim();
         //Do more...
+        _ = argument;
     }
 
     private static void ThrowExceptionIf([DoesNotReturnIf(true)] bool isNull, string parameterName) {

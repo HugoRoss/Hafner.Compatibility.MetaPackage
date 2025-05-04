@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
+[SuppressMessage("Naming", "CA1711:Identifiers should not have incorrect suffix", Justification = "It's a test for an attribute!")]
 public class Test_MaybeNullWhenAttribute {
 
     /// <summary>
@@ -22,7 +23,7 @@ public class Test_MaybeNullWhenAttribute {
 
     /// <summary>
     /// Forces the return value to be declared as '<c>object?</c>' even through with a List&lt;int&gt; int}"/> '<c>argument = argument.Trim()</c>' would fail with 'CA8602: Dereference of a possibly null reference' if argument 
-    /// 'isNull' of method <see cref="ThrowExceptionIf(bool, string)"/> would not be decorated with the <see cref="DoesNotReturnIfAttribute"/>.
+    /// 'isNull' of method <see cref="ThrowExceptionIf(Boolean, String)"/> would not be decorated with the <see cref="DoesNotReturnIfAttribute"/>.
     /// </summary>
     /// <param name="key">The key who's value to look up.</param>
     /// <param name="value">The out parameter to receive the value found.</param>
