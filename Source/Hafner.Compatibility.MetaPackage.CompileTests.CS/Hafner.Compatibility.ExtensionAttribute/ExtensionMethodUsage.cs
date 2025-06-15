@@ -9,7 +9,6 @@ public sealed class ExtensionMethodUsage {
         bool hasElements = list.HasElements();
         //Do more...
         _ = hasElements;
-
     }
 
 }

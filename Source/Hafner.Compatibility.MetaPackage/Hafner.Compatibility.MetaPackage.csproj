@@ -1,19 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net9.0;net8.0;net7.0;net6.0;net5.0;netcoreapp3.1;netcoreapp3.0;netcoreapp2.2;netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;netcoreapp1.0;netstandard2.1;netstandard2.0;netstandard1.6;netstandard1.5;netstandard1.4;netstandard1.3;netstandard1.2;netstandard1.1;netstandard1.0;net481;net48;net472;net471;net47;net462;net461;net46;net452;net451;net45;net403;net40;net35;net30;net20</TargetFrameworks>
-    <FrameworksTemplate>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|net8.0|net9.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksTemplate>
+    <TargetFrameworks>net10.0;net9.0;net8.0;net7.0;net6.0;net5.0;netcoreapp3.1;netcoreapp3.0;netcoreapp2.2;netcoreapp2.1;netcoreapp2.0;netcoreapp1.1;netcoreapp1.0;netstandard2.1;netstandard2.0;netstandard1.6;netstandard1.5;netstandard1.4;netstandard1.3;netstandard1.2;netstandard1.1;netstandard1.0;net481;net48;net472;net471;net47;net462;net461;net46;net452;net451;net45;net403;net40;net35;net30;net20</TargetFrameworks>
+    <FrameworksTemplate>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|net8.0|net9.0|net10.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksTemplate>
     <FrameworksLackingGuidAttribute>|netstandard1.0|</FrameworksLackingGuidAttribute>
     <FrameworksLackingExcludeFromCodeCoverage>|net20|net30|net35|netcoreapp1.0|netcoreapp1.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|</FrameworksLackingExcludeFromCodeCoverage>
     <FrameworksLackingExtensionAttribute>|net20|net30|</FrameworksLackingExtensionAttribute>
     <FrameworksLackingNullableAttributes1>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|</FrameworksLackingNullableAttributes1>
     <FrameworksLackingNullableAttributes2>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingNullableAttributes2>
     <FrameworksLackingNullableAttributes3>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingNullableAttributes3>
+    <FrameworksLackingCallerInfoAttributes1>|net20|net30|net35|net40|net403|</FrameworksLackingCallerInfoAttributes1>
+    <FrameworksLackingCallerInfoAttributes2>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingCallerInfoAttributes2>
     <FrameworksLackingConstantExpectedAttributes>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingConstantExpectedAttributes>
     <FrameworksLackingFuncActionG2>|net20|net30|</FrameworksLackingFuncActionG2>
     <FrameworksLackingFuncActionG3>|net20|net30|net35|</FrameworksLackingFuncActionG3>
     <FrameworksLackingDynamicallyAccessedMembersAttribute>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingDynamicallyAccessedMembersAttribute>
     <FrameworksLackingLoaderOptimizationAttribute>|netcoreapp1.0|netcoreapp1.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|</FrameworksLackingLoaderOptimizationAttribute>
     <FrameworksLackingExperimentalAttribute>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingExperimentalAttribute>
+    <FrameworksLackingFeatureGuardAttribute>|net20|net30|net35|net40|net403|net45|net451|net452|net46|net461|net462|net47|net471|net472|net48|net481|netcoreapp1.0|netcoreapp1.1|netcoreapp2.0|netcoreapp2.1|netcoreapp2.2|netcoreapp3.0|netcoreapp3.1|net5.0|net6.0|net7.0|net8.0|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|netstandard2.0|netstandard2.1|</FrameworksLackingFeatureGuardAttribute>
+    <FrameworksLackingSerializableAttribute>|netcoreapp1.0|netcoreapp1.1|netstandard1.0|netstandard1.1|netstandard1.2|netstandard1.3|netstandard1.4|netstandard1.5|netstandard1.6|</FrameworksLackingSerializableAttribute>
     <Configurations>Debug;Release;NuGet</Configurations>
     <ConfigurationsThatPublish>|NuGet|</ConfigurationsThatPublish>
     <OutputType>Library</OutputType>
@@ -30,21 +34,22 @@
     <SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Authors>Christoph&#160;Hafner</Authors>
+    <Authors>Christoph Hafner</Authors>
     <Company>Hafner</Company>
     <Product>Hafner.Compatibility</Product>
-    <Version>1.7.0.0</Version>
-    <AssemblyVersion>1.7.0.0</AssemblyVersion>
-    <FileVersion>1.7.0.0</FileVersion>
-    <AssemblyInformationalVersion>1.7.0.0</AssemblyInformationalVersion>
-    <Copyright>Copyright (C) 2023 - 2024 by Christoph Hafner</Copyright>
+    <Version>1.9.0.0</Version>
+    <AssemblyVersion>1.9.0.0</AssemblyVersion>
+    <FileVersion>1.9.0.0</FileVersion>
+    <AssemblyInformationalVersion>1.9.0.0</AssemblyInformationalVersion>
+    <ProductVersion>1.9.0.0</ProductVersion>
+    <Copyright>Copyright (C) 2023 - 2025 by Christoph Hafner</Copyright>
     <Description>Meta-package that includes Hafner.Compatibility.* packages (see https://github.com/HugoRoss/Hafner.Compatibility.Packages) as required.
 
 See 'PackageReadMe.md' for an overview with the exact types that are currently supported and for which framework they are imported.
     </Description>
     <PackageIcon>resources\PackageIcon.png</PackageIcon>
     <PackageReadmeFile>resources\PackageReadMe.md</PackageReadmeFile>
-    <PackageTags>GuidAttribute System.Runtime.InteropServices.GuidAttribute System.Runtime.CompilerServices.ExtensionAttribute ExtensionAttribute AllowNull, DisallowNull, DoesNotReturn, DoesNotReturnIf, MaybeNull, MaybeNullWhen, NotNull, NotNullIfNotNull, NotNullWhen, MemberNotNull, MemberNotNullWhen, Nullable, NullableContext, NullablePublicOnly, ConstantExpected, System.Diagnostics.CodeAnalysis.AllowNullAttribute, System.Diagnostics.CodeAnalysis.DisallowNullAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute, System.Diagnostics.CodeAnalysis.MaybeNullAttribute, System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute, System.Diagnostics.CodeAnalysis.NotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullWhenAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute, System.Diagnostics.CodeAnalysis.NullableAttribute, System.Diagnostics.CodeAnalysis.NullableContextAttribute, System.Diagnostics.CodeAnalysis.NullablePublicOnlyAttribute, System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute, System.Func, System.Action, RequiresUnreferencedCodeAttribute, System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute, DynamicDependencyAttribute, System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute, DynamicallyAccessedMembersAttribute, System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute, DynamicallyAccessedMemberTypes, System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes, LoaderOptimization, LoaderOptimizationAttribute, System.LoaderOptimization, System.LoaderOptimizationAttribute, Hafner.Compatibility.LoaderOptimizationAttribute, ExcludeFromCodeCoverage, ExcludeFromCodeCoverageAttribute, System.Diagnostics.ExcludeFromCodeCoverage, System.Diagnostics.ExcludeFromCodeCoverageAttribute, Hafner.Compatibility.ExcludeFromCodeCoverageAttribute, Experimental ExperimentalAttribute, System.Diagnostics.CodeAnalysis.Experimental, System.Diagnostics.CodeAnalysis.ExperimentalAttribute, Hafner.Compatibility.ExperimentalAttribute</PackageTags>
+    <PackageTags>GuidAttribute, System.Runtime.InteropServices.GuidAttribute, System.Runtime.CompilerServices.ExtensionAttribute, ExtensionAttribute AllowNull, DisallowNull, DoesNotReturn, DoesNotReturnIf, MaybeNull, MaybeNullWhen, NotNull, NotNullIfNotNull, NotNullWhen, MemberNotNull, MemberNotNullWhen, Nullable, NullableContext, NullablePublicOnly, ConstantExpected, System.Diagnostics.CodeAnalysis.AllowNullAttribute, System.Diagnostics.CodeAnalysis.DisallowNullAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute, System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute, System.Diagnostics.CodeAnalysis.MaybeNullAttribute, System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute, System.Diagnostics.CodeAnalysis.NotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute, System.Diagnostics.CodeAnalysis.NotNullWhenAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullAttribute, System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute, System.Diagnostics.CodeAnalysis.NullableAttribute, System.Diagnostics.CodeAnalysis.NullableContextAttribute, System.Diagnostics.CodeAnalysis.NullablePublicOnlyAttribute, System.Diagnostics.CodeAnalysis.ConstantExpectedAttribute, System.Func, System.Action, RequiresUnreferencedCodeAttribute, System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute, DynamicDependencyAttribute, System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute, DynamicallyAccessedMembersAttribute, System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute, DynamicallyAccessedMemberTypes, System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes, LoaderOptimization, LoaderOptimizationAttribute, System.LoaderOptimization, System.LoaderOptimizationAttribute, Hafner.Compatibility.LoaderOptimizationAttribute, ExcludeFromCodeCoverage, ExcludeFromCodeCoverageAttribute, System.Diagnostics.ExcludeFromCodeCoverage, System.Diagnostics.ExcludeFromCodeCoverageAttribute, Hafner.Compatibility.ExcludeFromCodeCoverageAttribute, Experimental ExperimentalAttribute, System.Diagnostics.CodeAnalysis.Experimental, System.Diagnostics.CodeAnalysis.ExperimentalAttribute, Hafner.Compatibility.ExperimentalAttribute, FeatureGuard, FeatureGuardAttribute, System.Diagnostics.CodeAnalysis.FeatureGuard, System.Diagnostics.CodeAnalysis.FeatureGuardAttribute, Hafner.Compatibility, Hafner.Compatibility.FeatureGuardAttribute, FeatureSwitchDefinition, FeatureSwitchDefinitionAttribute, System.Diagnostics.CodeAnalysis.FeatureSwitchDefinition, System.Diagnostics.CodeAnalysis.FeatureSwitchDefinitionAttribute, Hafner.Compatibility, Hafner.Compatibility.FeatureSwitchDefinitionAttribute, Serializable, SerializableAttribute, System.Serializable, System.SerializableAttribute CallerMemberName CallerMemberNameAttribute System.Runtime.CompilerService.CallerMemberName System.Runtime.CompilerService.CallerMemberNameAttribute CallerName CallerLineNumber CallerLineNumberAttribute System.Runtime.CompilerService.CallerLineNumber System.Runtime.CompilerService.CallerLineNumberAttribute LineNumber LineNo CallerFilePath CallerFilePathAttribute System.Runtime.CompilerService.CallerFilePath System.Runtime.CompilerService.CallerFilePathAttribute CallerFile Caller Information CallerInformation CallerArgumentExpression CallerArgumentExpressionAttribute System.Runtime.CompilerService.CallerArgumentExpression System.Runtime.CompilerService.CallerArgumentExpressionAttribute CallerExpression CallerArgument CallerExpressionAttribute CallerArgumentAttribute</PackageTags>
     <PackageReleaseNotes>Package "Hafner.Compatibility.LoaderOptimizationAttribute" integrated.</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/HugoRoss/Hafner.Compatibility.MetaPackage</PackageProjectUrl>
     <RepositoryUrl>https://github.com/HugoRoss/Hafner.Compatibility.MetaPackage.git</RepositoryUrl>
@@ -71,6 +76,12 @@ See 'PackageReadMe.md' for an overview with the exact types that are currently s
   <ItemGroup Condition="$(FrameworksLackingNullableAttributes3.Contains('|$(TargetFramework)|'))">
     <PackageReference Include="Hafner.Compatibility.NullableReferenceTypeAttributes.G3" Version="1.0.3" />
   </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingCallerInfoAttributes1.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.CallerInformationAttributes.G1" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingCallerInfoAttributes2.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.CallerInformationAttributes.G2" Version="1.0.0" />
+  </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingConstantExpectedAttributes.Contains('|$(TargetFramework)|'))">
     <PackageReference Include="Hafner.Compatibility.ConstantExpectedAttribute" Version="2.0.0" />
   </ItemGroup>
@@ -81,7 +92,7 @@ See 'PackageReadMe.md' for an overview with the exact types that are currently s
     <PackageReference Include="Hafner.Compatibility.FuncAction.G3" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingDynamicallyAccessedMembersAttribute.Contains('|$(TargetFramework)|'))">
-    <PackageReference Include="Hafner.Compatibility.DynamicallyAccessedMembersAttribute" Version="1.1.2" />
+    <PackageReference Include="Hafner.Compatibility.DynamicallyAccessedMembersAttribute" Version="1.1.3" />
   </ItemGroup>
   <ItemGroup Condition="$(FrameworksLackingLoaderOptimizationAttribute.Contains('|$(TargetFramework)|'))">
     <PackageReference Include="Hafner.Compatibility.LoaderOptimizationAttribute" Version="1.0.0" />
@@ -92,11 +103,16 @@ See 'PackageReadMe.md' for an overview with the exact types that are currently s
   <ItemGroup Condition="$(FrameworksLackingExperimentalAttribute.Contains('|$(TargetFramework)|'))">
     <PackageReference Include="Hafner.Compatibility.ExperimentalAttribute" Version="1.0.0" />
   </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingFeatureGuardAttribute.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.FeatureGuardAttribute" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition="$(FrameworksLackingSerializableAttribute.Contains('|$(TargetFramework)|'))">
+    <PackageReference Include="Hafner.Compatibility.SerializableAttribute" Version="1.0.1" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\PackageReadMe.md" Pack="true" PackagePath="\resources" Visible="true" />
     <None Include="..\..\BuildTools\Resources\PackageIcon.png" Pack="true" PackagePath="\resources" Visible="false" />
   </ItemGroup>
-  <ItemGroup />
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="@ECHO OFF&#xD;&#xA;CALL &quot;$(ProjectDir)BuildEvents\PreBuild.bat&quot; &quot;$(ConfigurationName)&quot; &quot;$(TargetFramework)&quot;&#xD;&#xA;" />
   </Target>
